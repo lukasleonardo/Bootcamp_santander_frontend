@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/*Criação de variaveis para manipulação das cores do CSS*/
+:root{
+  --background-color: #EAEAEA;
+  --primary-color: #EA1D25;
+  --secondary-color: #FFF;
+  --text-color: #5C6369;
+  --text-color-var: rgba( 92, 99, 105, 0.45 );
+  --positive-var: #87D883;
+  --negative-var: #F55A5F;
+}
+
+/*root - css raiz da pagina*/
+*{
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: var(--background-color);
+  font-family: 'Segoe-UI', sans-serif;
+}
+
+
